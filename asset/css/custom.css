@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("/asset/fonts/Inter-Medium.ttf") format("ttf");
+}
+@font-face {
+  font-family: "contentFont";
+  src: url("/asset/fonts/Montserrat-Regular.ttf") format("ttf");
+}
+
+body {
+  font-family: "contentFont", sans-serif;
+}
+.navbg {
+  background-color: #02d9cbaf;
+}
+
+.cardbtn {
+  background-color: #02d9ca;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  padding: 2px 10px;
+  border-radius: 5px;
+}
+
+.headertitle {
+  color: white;
+  font-family: "CustomFont", sans-serif;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.herodiv {
+  background-image: url("/asset/image/chef.jpg");
+  /* background-position: center; */
+  background-size: cover;
+}
+
+.herobar {
+  height: 10px;
+  width: 120px;
+  background-color: #02d9ca;
+}
+.herobtn {
+  padding: 5px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  width: fit-content;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #02d9ca;
+}
+.herobody {
+  padding: 120px 85px;
+}
+
+.herodiv .herobody h2 {
+  font-size: 60px;
+}
+.herodiv .herobody h3 {
+  font-size: 45px;
+}
+.herodiv .navitem ul {
+  padding: 0;
+}
+.herodiv .navitem ul li {
+  list-style: none;
+  background-color: #02d9ca;
+  color: white;
+  margin: 15px 0;
+  padding: 5px;
+  border: 2px solid transparent;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.herodiv .navitem ul li:hover {
+  background-color: #02d9cb88;
+  border: 2px solid #02d9ca;
+}
+
+.herodiv .navitem .followDiv p {
+  text-align: center;
+  margin-top: 50px;
+  caret-color: white;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+.herodiv .navitem .followDiv div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.herodiv .navitem .followDiv div i {
+  color: white;
+  background-color: #02d9ca;
+  padding: 6px;
+  border-radius: 50%;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .herobody {
+    padding: 50px 20px;
+  }
+  .herodiv {
+    background-image: url("/asset/image/chef.jpg");
+    background-position: right;
+    background-size: cover;
+  }
+}
