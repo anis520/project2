@@ -10,6 +10,12 @@
 body {
   font-family: "contentFont", sans-serif;
 }
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .navbg {
   background-color: #02d9cbaf;
 }
@@ -107,6 +113,37 @@ body {
   border-radius: 50%;
   font-size: 25px;
   cursor: pointer;
+}
+
+.section1Icon {
+  width: 70px;
+  height: 70px;
+}
+
+.singlePrograms {
+  background-color: #02d9cb42;
+  color: rgb(61, 60, 60);
+  transition: 0.2s;
+}
+
+.singlePrograms:hover {
+  color: white;
+  transform: scale(108%);
+  background-color: #02d9ca;
+}
+.singlePrograms:hover .more {
+  transform: scale(120%);
+  cursor: pointer;
+}
+
+.singlePrograms .more {
+  background-color: white;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 5px;
+  color: gray;
+  transition: 0.2s;
 }
 
 @media (max-width: 550px) {

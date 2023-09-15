@@ -15,59 +15,38 @@
     <link rel="stylesheet" href="/asset/css/custom.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <div class="d-flex">
+      <h2>Hellochef</h2>
+      <a
+        class="nav-link dropdown-toggle"
+        href="#"
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        Dropdown link
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+      <a
+        class="nav-link dropdown-toggle"
+        href="#"
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        ||
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
 
-        <div>
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Dropdown
-          </a>
-          <ul class="dropdown-menu ms-5">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider" /></li>
-            <li>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </li>
-          </ul>
-        </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse bg-info"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown"></li>
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <div class="herodiv">
       <!-- navbar start -->
       <!-- <div
@@ -135,6 +114,89 @@
       <!-- hero section end  -->
     </div>
 
+    <!-- section1 start -->
+
+    <div class="container py-5">
+      <!-- part 1 start -->
+
+      <div class="row gy-5">
+        <div class="col-md-4">
+          <div
+            class="px-2 py-3 border border-2 rounded-3 border-dark d-flex gap-4"
+          >
+            <img src="/asset/image/linkden.avif" class="section1Icon" alt="" />
+            <div class="">
+              <p class="">LinkedIn</p>
+              <p class="fs-4 fw-bolder">Top Startup India</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div
+            class="px-2 py-3 border border-2 rounded-3 border-dark d-flex gap-4"
+          >
+            <img src="/asset/image/trustiyp.png" class="section1Icon" alt="" />
+            <div class="">
+              <p class="">Trustpilot</p>
+              <p class="fs-4 fw-bolder">Rated 4.7/5 (4192)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div
+            class="px-2 py-3 border border-2 rounded-3 border-dark d-flex gap-4"
+          >
+            <img src="/asset/image/google.jpg" class="section1Icon" alt="" />
+            <div class="">
+              <p class="">Google Reviews</p>
+              <p class="fs-4 fw-bolder">Rated 4.4/5 (188)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- part 1 end -->
+
+      <!-- part 2 start  -->
+
+      <div class="row gy-5 mt-2 w-75 mx-auto">
+        <div class="col-md-4">
+          <div class="py-3 border border-2 rounded-4 border-dark text-center">
+            <i class="fa-solid fa-users fs-2"></i>
+            <div class="">
+              <p class="my-2 fs-2 fw-bolder">300k</p>
+              <p class="fw-semibold text-secondary">Total Learners</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="py-3 border border-2 rounded-4 border-dark text-center">
+            <i class="fa-solid fa-bowl-food fs-2"></i>
+            <div class="">
+              <p class="my-2 fs-2 fw-bolder">80+</p>
+              <p class="fw-semibold text-secondary">Programs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="py-3 border border-2 rounded-4 border-dark text-center">
+            <div class="d-flex align-items-center justify-content-center py-1">
+              <i class="fa-solid fa-star fs-3"></i>
+              <i class="fa-solid fa-star fs-4"></i>
+              <i class="fa-solid fa-star fs-5"></i>
+            </div>
+            <div class="">
+              <p class="my-2 fs-2 fw-bolder">
+                4.2<span class="fs-4 fw-normal">/5</span>
+              </p>
+              <p class="fw-semibold text-secondary">CSAT</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- part 2 end -->
+    </div>
+
+    <!-- section1 end -->
     <!-- about section start  -->
 
     <div class="row row-cols-md-2 m-2 m-sm-4 mt-5">
@@ -163,6 +225,57 @@
     </div>
 
     <!-- about section end -->
+    <!-- section2 start -->
+    <div class="my-5">
+      <h2 class="text-center fw-bolder fs-1">Explore the programs</h2>
+      <div class="row gy-5 mt-2 w-75 mx-auto">
+        <div class="col-md-3">
+          <div
+            class="py-3 border border-2 rounded-4 border-secondary text-center singlePrograms"
+          >
+            <i class="fa-solid fa-utensils fs-2"></i>
+            <div class="">
+              <p class="my-2 fs-2 fw-bolder">Cooking</p>
+              <p class="fw-semibold more">See programs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="py-3 border border-2 rounded-4 border-secondary text-center singlePrograms"
+          >
+            <i class="fa-solid fa-chalkboard fs-2"></i>
+            <div class="">
+              <p class="my-2 fs-2 fw-bolder">Markiting</p>
+              <p class="fw-semibold more">See programs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="py-3 border border-2 rounded-4 border-secondary text-center singlePrograms"
+          >
+            <i class="fa-solid fa-cube fs-2"></i>
+            <div class="">
+              <p class="my-2 fs-2 fw-bolder">Tech & Data</p>
+              <p class="fw-semibold more">See programs</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div
+            class="py-3 border border-2 rounded-4 border-secondary text-center singlePrograms"
+          >
+            <i class="fa-solid fa-utensils fs-2"></i>
+            <div class="">
+              <p class="my-2 fs-2 fw-bolder">Cooking</p>
+              <p class="fw-semibold more">See programs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- section2 end -->
   </body>
   <script src="/asset/js/bootstrap.bundle.min.js"></script>
 </html>
