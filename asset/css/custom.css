@@ -145,6 +145,9 @@ p {
   color: gray;
   transition: 0.2s;
 }
+.navbg {
+  background-color: #02d9ca;
+}
 
 @media (max-width: 550px) {
   .herobody {
