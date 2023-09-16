@@ -39,8 +39,9 @@ p {
 
 .herodiv {
   background-image: url("/asset/image/chef.jpg");
-  /* background-position: center; */
   background-size: cover;
+
+  height: 100vh;
   width: 100%;
 }
 
@@ -150,13 +151,17 @@ p {
   background-color: #02d9ca;
 }
 
+.coursesBtn {
+  background-color: #02d9ca;
+  color: white;
+}
 @media (max-width: 550px) {
   .herobody {
     padding: 50px 20px;
   }
   .herodiv {
     background-image: url("/asset/image/chef.jpg");
-    background-position: right;
+    background-position: center;
     background-size: cover;
   }
   .herodiv .herobody h2 {
