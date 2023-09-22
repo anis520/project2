@@ -242,6 +242,12 @@ p {
   margin: auto;
   font-size: 38px;
 }
+.arrowIcon {
+  transition: 0.3s;
+}
+.arrowIcon:hover {
+  background-color: #02d9ca !important;
+}
 @media (max-width: 550px) {
   .herobody {
     padding: 50px 20px;
