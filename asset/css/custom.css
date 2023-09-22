@@ -9,6 +9,7 @@
 
 body {
   font-family: "contentFont", sans-serif;
+  /* background-color: black; */
 }
 
 p {
@@ -185,11 +186,62 @@ p {
   transition: 0.3s;
   border-radius: 5px;
 }
+
 .singleService div div button:hover {
   background-color: #02d9ca;
   color: white;
 }
+.singleClass div div button {
+  width: 25%;
+  border: 1px solid #02d9ca;
+  padding: 5px;
+  background-color: white;
 
+  color: #02d9ca;
+  font-weight: bold;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.singleClass div div button:hover {
+  background: #02d9ca;
+  color: white;
+}
+
+.reference {
+  background-color: rgba(128, 128, 128, 0.651);
+
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 70px;
+  margin-top: 20px;
+}
+.reference button {
+  background-color: #02d9ca;
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.ratingDiv div div div img {
+  height: 60px;
+}
+.singleComments {
+  width: 70%;
+}
+.section5 {
+  background-color: #02d9cb15;
+}
+.section5 h3 {
+  border-bottom: 5px solid #02d9ca;
+  width: 220px;
+  margin: auto;
+  font-size: 38px;
+}
 @media (max-width: 550px) {
   .herobody {
     padding: 50px 20px;
@@ -213,6 +265,23 @@ p {
     transform: scale(1.2);
     box-shadow: 1px 0px 8px #4f5e5e;
     background-color: rgba(220, 220, 220, 0.664);
+  }
+  .reference {
+    background-color: rgba(128, 128, 128, 0.651);
+
+    color: white;
+    font-weight: bold;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    margin-bottom: 30px;
+  }
+  .reference button {
+    margin-top: 20px;
+  }
+  .singleComments {
+    width: 100%;
   }
 }
 
